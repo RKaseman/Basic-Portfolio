@@ -6,6 +6,12 @@
     margin: auto;
 }
 
+body {
+    background-image: url("../images/blu_stripes.png");
+    background-color: lightsteelblue;
+    margin-bottom: 128px;
+}
+
 header {
     width: 100%;
     border-bottom: 2px solid #cccccc;
