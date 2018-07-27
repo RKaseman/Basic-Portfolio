@@ -30,20 +30,15 @@ a:active {
     color: #4aaaa5;
 }
 
+/* universal */
 header {
     width: 100%;
     border-bottom: 2px solid #cccccc;
-    padding: 0;
 }
 
 #divheader {
     width: 960px;
     margin: auto;
-    padding: 0;
-}
-
-#bio {
-    margin: 32px 0px;
 }
 
 p {
@@ -85,13 +80,19 @@ h2 {
     padding: 8px 0px 32px 0px;
 }
 
-/* bio pic manipulation */
+/* bio page */
+#bio {
+    margin: 32px 0px;
+}
+
+/* bio pic position */
 .img {
     float: left;
     margin: 32px -318px 8px -32px;
     padding: 32px 0px;
 }
 
+/* bio pic rotation */
 .rotateimg-90 {
     -webkit-transform:rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -104,7 +105,6 @@ section {
     width: 896px;
     border: 2px solid #dddddd;
     margin: 32px auto;
-    /* margin-bottom: 128px; */
     padding: 32px;
 }
 
@@ -146,11 +146,11 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 16px 24px;
-    border: none;
     cursor: pointer;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 16px 24px;
 }
 
 input[type=submit]:hover {
