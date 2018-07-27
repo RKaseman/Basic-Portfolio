@@ -6,10 +6,28 @@
     margin: auto;
 }
 
-body {
+html, body {
+    min-height: 100%;
+    width: 100%;
     background-image: url("../images/blu_stripes.png");
     background-color: lightsteelblue;
-    margin-bottom: 128px;
+}
+
+/* hyperlinks */
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+a:active {
+    color: #4aaaa5;
 }
 
 header {
@@ -29,17 +47,24 @@ header {
 }
 
 p {
+    line-height: 24px;
+    margin-top: -16px;
+    margin-bottom: 16px;
     padding: 16px 0px;
 }
 
-.left {
+.floatL {
     float: left;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.right {
+.floatR {
     float: right;
-    text-align: center;
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -47,6 +72,15 @@ h1 {
     background: #4aaaa5;
     color: #ffffff;
     padding: 32px;
+}
+
+nav {
+    /* float: none; */
+    /* background: red; */
+    line-height: 32px;
+    text-align: right;
+    /* border: 2px dotted purple; */
+    padding: 32px 0px 32px 32px;
 }
 
 h2 {
@@ -58,7 +92,7 @@ h2 {
 
 .img {
     float: left;
-    margin: 32px 16px 16px -24px;
+    margin: 32px -318px 8px -32px;
     padding: 32px 0px;
 }
 
@@ -70,21 +104,11 @@ h2 {
     transform: rotate(-90deg);
 }
 
-ul {
-    /* float: right; */
-    list-style-type: none;
-    margin: 64;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-
 section {
     width: 896px;
     border: 2px solid #dddddd;
     margin: 32px auto;
+    /* margin-bottom: 128px; */
     padding: 32px;
 }
 
