@@ -85,6 +85,7 @@ h2 {
     padding: 8px 0px 32px 0px;
 }
 
+/* bio pic manipulation */
 .img {
     float: left;
     margin: 32px -318px 8px -32px;
@@ -136,13 +137,12 @@ footer {
 
 /* contact page */
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 16px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 8px;
-    margin-bottom: 16px;
     resize: vertical;
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding: 16px;
 }
 
 input[type=submit] {
